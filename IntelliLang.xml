@@ -1,0 +1,10 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="JavaScript" injector-id="xml">
+      <display-name>KnockoutJS</display-name>
+      <prefix>window[&quot;dummy_var&quot;] = {</prefix>
+      <suffix>}</suffix>
+      <place><![CDATA[xmlAttribute().withLocalName(string().matches("<none>")).withParent(xmlTag().withLocalName(string().equalTo("data-bind")))]]></place>
+    </injection>
+  </component>
+</application>
