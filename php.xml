@@ -2,7 +2,11 @@
   <component name="PhpAutoImport" auto_import_from_global_scope="true" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="/usr/bin/php" id="5260b9a4-995f-475a-a9e9-d7334abd0eaf" name="PHP 7.2" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/bin/php" id="5260b9a4-995f-475a-a9e9-d7334abd0eaf" name="PHP 7.2" debugger_id="php.debugger.XDebug">
+        <configuration_options>
+          <configuration_option name="xdebug.remote_autostart" value="1" />
+        </configuration_options>
+      </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -270,7 +274,7 @@
             <configuration_option name="xdebug.profiler_output_dir" value="/tmp" />
             <configuration_option name="xdebug.profiler_output_name" value="cachegrind.out.%p" />
             <configuration_option name="xdebug.remote_addr_header" value="" />
-            <configuration_option name="xdebug.remote_autostart" value="0" />
+            <configuration_option name="xdebug.remote_autostart" value="1" />
             <configuration_option name="xdebug.remote_connect_back" value="0" />
             <configuration_option name="xdebug.remote_cookie_expire_time" value="3600" />
             <configuration_option name="xdebug.remote_enable" value="0" />
