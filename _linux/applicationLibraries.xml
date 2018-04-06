@@ -11,6 +11,33 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="plugin" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_anchor_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_autolink_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_colorpicker_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_contextmenu_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_fullscreen_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_help_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_image_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_table_plugin.js" />
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_textcolor_plugin.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_anchor_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_autolink_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_colorpicker_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_contextmenu_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_fullscreen_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_help_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_image_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_table_plugin.js" />
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_plugins_textcolor_plugin.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="polyfill" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -37,6 +64,28 @@
     <library name="smoothscroll" type="javaScript">
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_iamdustan-smoothscroll_0.4.0_smoothscroll.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="theme" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_themes_modern_theme.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_themes_modern_theme.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="tinymce" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_tinymce.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tinymce_4.7.10_tinymce.min.js" />
       </CLASSES>
       <SOURCES />
     </library>
